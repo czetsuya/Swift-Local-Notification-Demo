@@ -16,7 +16,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
         // Override point for customization after application launch.
+        
+        application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: UIUserNotificationType.Sound | UIUserNotificationType.Alert |
+            UIUserNotificationType.Badge, categories: nil
+            ))
+        
         return true
+    }
+    
+    func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
+        print("received local notification")
+        
+        application.applicationIconBadgeNumber = 0
+        
+        var alert = UIAlertView()
+        alert.title = "Alert"
+        alert.message = notification.alertBody
+        alert.addButtonWithTitle("Dismiss")
+        
+        alert.show()
     }
 
     func applicationWillResignActive(application: UIApplication!) {

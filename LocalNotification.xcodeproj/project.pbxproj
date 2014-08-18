@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7609BE819A22F4A00EF88C9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B7609BE719A22F4A00EF88C9 /* README.md */; };
 		B7B12181199E4E3E004124E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B12180199E4E3E004124E9 /* AppDelegate.swift */; };
 		B7B12183199E4E3E004124E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B12182199E4E3E004124E9 /* ViewController.swift */; };
 		B7B12186199E4E3E004124E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B12184199E4E3E004124E9 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B7609BE719A22F4A00EF88C9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B7B1217B199E4E3E004124E9 /* LocalNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B1217F199E4E3E004124E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7B12180199E4E3E004124E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		B7B12172199E4E3E004124E9 = {
 			isa = PBXGroup;
 			children = (
+				B7609BE719A22F4A00EF88C9 /* README.md */,
 				B7B1217D199E4E3E004124E9 /* LocalNotification */,
 				B7B12190199E4E3E004124E9 /* LocalNotificationTests */,
 				B7B1217C199E4E3E004124E9 /* Products */,
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7609BE819A22F4A00EF88C9 /* README.md in Sources */,
 				B7B12183199E4E3E004124E9 /* ViewController.swift in Sources */,
 				B7B12181199E4E3E004124E9 /* AppDelegate.swift in Sources */,
 			);
@@ -395,6 +399,7 @@
 				B7B12199199E4E3E004124E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7B1219A199E4E3E004124E9 /* Build configuration list for PBXNativeTarget "LocalNotificationTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +408,7 @@
 				B7B1219C199E4E3E004124E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
